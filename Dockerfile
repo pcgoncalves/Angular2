@@ -12,7 +12,7 @@ build-essential
 
 RUN npm install -g typescript@latest
 RUN npm install -g @angular/cli@latest
-RUN npm install ng2-bootstrap bootstrap --save
+RUN npm install -g ng2-bootstrap bootstrap --save
 
 
 VOLUME /home
